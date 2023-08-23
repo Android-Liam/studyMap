@@ -1,2 +1,2 @@
 
-![StudyMapPNG](./images/AndroidStdyMap.png)
+![StudyMapPNG](./images/AndroidStudyMap.png)
