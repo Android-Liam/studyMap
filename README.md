@@ -10,3 +10,5 @@ I will continue to work hard and become a good senior developer!
 
 
 # [1] View Group
+1. Linear Layout : https://korea-dev-liam.tistory.com/15
+2. 
