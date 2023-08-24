@@ -8,6 +8,5 @@ I will continue to work hard and become a good senior developer!
 
 ![StudyMapPNG](./images/AndroidStudyMap.png)
 
-<br/><br/><br/>
 
-[1]
+[1] View Group
