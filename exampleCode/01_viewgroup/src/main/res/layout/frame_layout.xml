@@ -1,6 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left | top"
+        android:textSize="24sp"
+        android:layout_gravity="left|top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="center | top"
+        android:textSize="24sp"
+        android:layout_gravity="center|top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right | top"
+        android:textSize="24sp"
+        android:layout_gravity="right|top"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left | center_vertical"
+        android:textSize="14sp"
+        android:layout_gravity="left|center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="center | center_vertical"
+        android:textSize="14sp"
+        android:layout_gravity="center|center_vertical"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right | center_vertical"
+        android:textSize="14sp"
+        android:layout_gravity="right|center_vertical"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="left | bottom"
+        android:textSize="20sp"
+        android:layout_gravity="left|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="center | bottom"
+        android:textSize="20sp"
+        android:layout_gravity="center|bottom"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="right | bottom"
+        android:textSize="20sp"
+        android:layout_gravity="right|bottom"/>
+
+</FrameLayout>
