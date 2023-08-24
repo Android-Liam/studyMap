@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/center"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#6D1BD8"
+        android:text="Center"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#E4CCFF"
+        android:text="Left"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_toLeftOf="@id/center"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#E4CCFF"
+        android:text="Right"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_toRightOf="@id/center"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#E4CCFF"
+        android:text="Above"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_above="@id/center"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#E4CCFF"
+        android:text="Below"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_below="@id/center"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#E4CCFF"
+        android:text="ToStartOf"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_toStartOf="@id/center"/>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#E4CCFF"
+        android:text="ToEndOf"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_toEndOf="@id/center"/>
+
+
+</RelativeLayout>
