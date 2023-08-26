@@ -12,4 +12,9 @@
         android:title="3"
         android:icon="@drawable/ic_launcher_foreground"/>
 
+    <item android:id="@+id/fourth_item"
+        android:title="3"
+        android:icon="@drawable/ic_launcher_foreground"/>
+
+
 </menu>
