@@ -16,3 +16,4 @@ rootProject.name = "exampleCode"
 include ':app'
 include ':01_viewgroup'
 include ':02_fragment'
+include ':03_slidescreen'
