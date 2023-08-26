@@ -1,14 +1,15 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
 }
 
 android {
-    namespace 'com.example.examplecode'
+    namespace 'com.example.a02_fragment'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.examplecode"
+        applicationId "com.example.a02_fragment"
         minSdk 21
         targetSdk 33
         versionCode 1
@@ -31,8 +32,8 @@ android {
         jvmTarget = '1.8'
     }
 
-    viewBinding {
-        enabled = true
+    buildFeatures {
+        viewBinding = true
     }
 }
 
