@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ExampleCode">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.OrderActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
