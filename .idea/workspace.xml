@@ -4,7 +4,36 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56d2c7c9-5ea4-4c90-a460-93d9fea6e2a1" name="Changes" comment="" />
+    <list default="true" id="56d2c7c9-5ea4-4c90-a460-93d9fea6e2a1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/androidTest/java/com/example/a06_pattern_mvvm/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/java/com/example/a06_pattern_mvvm/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exampleCode/06_pattern_mvvm/src/test/java/com/example/a06_pattern_mvvm/ExampleUnitTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleCode/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exampleCode/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exampleCode/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/exampleCode/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

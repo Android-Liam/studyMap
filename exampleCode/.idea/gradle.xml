@@ -15,6 +15,9 @@
             <option value="$PROJECT_DIR$/03_slidescreen" />
             <option value="$PROJECT_DIR$/04_patternmvp" />
             <option value="$PROJECT_DIR$/05_pattern_mvc" />
+            <option value="$PROJECT_DIR$/06_pattern_mvvm" />
+            <option value="$PROJECT_DIR$/07_viewpager2" />
+            <option value="$PROJECT_DIR$/08_veiwpager2_and_bottomnavigation" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
