@@ -18,7 +18,9 @@
             <option value="$PROJECT_DIR$/06_pattern_mvvm" />
             <option value="$PROJECT_DIR$/07_viewpager2" />
             <option value="$PROJECT_DIR$/08_veiwpager2_and_bottomnavigation" />
+            <option value="$PROJECT_DIR$/09_data_binding" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/databinding" />
           </set>
         </option>
       </GradleProjectSettings>
