@@ -7,6 +7,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -20,7 +21,6 @@
             <option value="$PROJECT_DIR$/08_veiwpager2_and_bottomnavigation" />
             <option value="$PROJECT_DIR$/09_data_binding" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/databinding" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -7,11 +7,11 @@
         <deviceKey>
           <Key>
             <type value="VIRTUAL_DEVICE_PATH" />
-            <value value="C:\Users\junpy\.android\avd\S20_Plus_API_33.avd" />
+            <value value="C:\Users\junpy\.android\avd\S20_Plus_API_34.avd" />
           </Key>
         </deviceKey>
       </Target>
     </targetSelectedWithDropDown>
-    <timeTargetWasSelectedWithDropDown value="2023-09-01T12:51:46.139260800Z" />
+    <timeTargetWasSelectedWithDropDown value="2023-09-02T12:22:06.139744200Z" />
   </component>
 </project>
