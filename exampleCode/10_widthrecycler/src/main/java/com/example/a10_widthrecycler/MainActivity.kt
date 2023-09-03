@@ -25,11 +25,15 @@ class MainActivity : AppCompatActivity() {
         recyclerView = binding.recyclerView
         viewPager = binding.viewPager
 
+        // 아이템 목록에 데이터 추가
+        itemList.add("Item 1")
+        itemList.add("Item 2")
+        itemList.add("Item 3")
+
         // RecyclerView 초기화
-        recyclerView = binding!!.recyclerView
-        recyclerView.layoutManager =
-            LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-        val adapter = ItemAdapter(itemList)
+        recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        val adapter = ItemAdapter(this, itemList)
+        recyclerView.adapter = adapter
 
         // RecyclerView 아이템 클릭 시 ViewPager2 변경
         recyclerView.addOnItemTouchListener(
@@ -38,18 +42,8 @@ class MainActivity : AppCompatActivity() {
             }
         )
 
-        recyclerView.adapter = adapter
-
-        // Item 추가 예시
-        itemList.add("Item 1")
-        itemList.add("Item 2")
-        itemList.add("Item 3")
-        itemList.add("Item 4")
-        itemList.add("Item 5")
-        itemList.add("Item 6")
 
         // ViewPager2 초기화
-        viewPager = binding.viewPager
         val pagerAdapter = ItemPagerAdapter(this, itemList)
         viewPager.adapter = pagerAdapter
     }

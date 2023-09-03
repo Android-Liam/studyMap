@@ -1,0 +1,17 @@
+<!-- res/layout/custom_page_1.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#532133">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Custom Page 4"
+        android:textSize="24sp" />
+
+    <!-- 추가적인 UI 요소나 레이아웃을 여기에 추가할 수 있습니다. -->
+</LinearLayout>
