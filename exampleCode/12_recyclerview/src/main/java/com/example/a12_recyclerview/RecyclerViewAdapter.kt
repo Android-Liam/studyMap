@@ -1,11 +1,13 @@
 package com.example.a12_recyclerview
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.example.a12_recyclerview.databinding.ItemLayoutBinding
+
 
 // 5. RecyclerView 어댑터 클래스 정의
 class RecyclerViewAdapter : ListAdapter<Item, RecyclerViewAdapter.ViewHolder>(DiffCallback()) {
@@ -20,6 +22,12 @@ class RecyclerViewAdapter : ListAdapter<Item, RecyclerViewAdapter.ViewHolder>(Di
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val currentItem = getItem(position)
         holder.bind(currentItem)
+
+        // Item을 클릭 할 시 ClickEvent
+        holder.itemView.setOnClickListener {
+            // 아이템 클릭 시 처리할 작업을 여기에 추가
+            Log.d("RecyclerView", "Item clicked: ${currentItem.name}")
+        }
     }
 
     // 8. 뷰 홀더 클래스 정의

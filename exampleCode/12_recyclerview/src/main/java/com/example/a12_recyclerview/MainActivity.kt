@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         // 1. RecyclerView 초기화 및 레이아웃 매니저 설정
-        binding.recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+        binding.recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL,false)
 
         // 2. RecyclerView에 어댑터 연결
         recyclerViewAdapter = RecyclerViewAdapter()
