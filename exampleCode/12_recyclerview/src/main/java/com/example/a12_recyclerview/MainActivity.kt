@@ -23,15 +23,15 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.adapter = recyclerViewAdapter
 
         // 3. 데이터 추가 (예시)
-        val items = mutableListOf<Item>()
+        val recyclerItems = mutableListOf<RecyclerItem>()
 
         for(i in 1 until 15) {
-            items.add(Item("$i", "Hello $i"))
+            recyclerItems.add(RecyclerItem("$i", "Hello $i"))
         }
 
-        items.add(Item("Item 1", "Content 1"))
+        recyclerItems.add(RecyclerItem("Item 1", "Content 1"))
 
-        recyclerViewAdapter.submitList(items)
+        recyclerViewAdapter.submitList(recyclerItems)
     }
 }
 
